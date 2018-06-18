@@ -10,9 +10,9 @@
 }
 
 .header {
-    color: white;
-    font-family: 'Montserrat';
-    text-align: center;
+  color: white;
+  font-family: 'Montserrat';
+  text-align: center;
   align-self: center;
   &__skew {
       -webkit-clip-path: polygon(0 0, 100% 0%, 100% 25%, 0 50%);
@@ -39,19 +39,19 @@
       background-color: #00CB79;
   }
 
-    h1 {
-        font-size: 36px;        
-        font-weight: 500;
-        line-height: 44px;
-    }
+  h1 {
+      font-size: 36px;
+      font-weight: 500;
+      line-height: 44px;
+  }
 
-    p {
-        color: rgba(255,255,255,0.75);
-        font-size: 15px;
-        font-weight: 300;
-        line-height: 19px;
-        width: 403px;
-    }
+  p {
+      color: rgba(255,255,255,0.75);
+      font-size: 15px;
+      font-weight: 300;
+      line-height: 19px;
+      width: 403px;
+  }
 }
 
 
@@ -65,8 +65,10 @@
   display: grid;
   grid-template-rows: 1fr 50px;
 
+    background-color: white;
   &__inputs {
-      background-color: skyblue;
+        background-color: skyblue;
+        // background-color: skyblue;
       display: grid;
       grid-template-rows: repeat(4, 1fr);
       grid-template-columns: repeat(4, 1fr);
